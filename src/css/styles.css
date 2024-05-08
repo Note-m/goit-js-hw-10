@@ -23,3 +23,48 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.main-page {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: aqua;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-pages {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 42px;
+  color: coral;
+}
+.snack-pages {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 42px;
+  color: coral;
+}
+
+/* Task 1 */
+.go-home {
+}
+.input-date {
+  border-radius: 4px;
+  width: 272px;
+  height: 40px;
+  background: #fff;
+}
+.button-start {
+}
+.timer {
+}
+.field {
+}
+.value {
+}
+.label {
+}
