@@ -6,12 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>P</title>
+    <title>HW 2</title>
   </head>
   <body>
-    <section>
-      <a href="./index.html">Go to home</a>
-      <h1>Welcome</h1>
-    </section>
+    <a class="go-home" href="./index.html">Go to home</a>
+    <form class="form">
+      <label class="form-label-delay">
+        Delay (ms)
+        <input class="form-input-delay" type="number" name="delay" required />
+      </label>
+      <fieldset class="fieldset">
+        <legend class="legend">State</legend>
+        <label class="form-label">
+          <input
+            class="form-input-state"
+            type="radio"
+            name="state"
+            value="fulfilled"
+            required
+          />
+          Fulfilled
+        </label>
+        <label class="form-label">
+          <input
+            class="form-input-state"
+            type="radio"
+            name="state"
+            value="rejected"
+            required
+          />
+          Rejected
+        </label>
+      </fieldset>
+
+      <button class="btn-submit" type="submit">Create notification</button>
+    </form>
+    <script type="module" src="./js/2-snackbar.js"></script>
   </body>
 </html>
