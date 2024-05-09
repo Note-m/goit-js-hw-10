@@ -5,7 +5,7 @@ const form = document.querySelector('.form');
 
 const inpDelay = document.querySelector('.form-input-delay');
 
-form.addEventListener('click', event => {
+form.addEventListener('submit', event => {
   event.preventDefault();
   const delay = inpDelay.value;
   const inpValue = document.querySelector('.form-input-state:checked');
